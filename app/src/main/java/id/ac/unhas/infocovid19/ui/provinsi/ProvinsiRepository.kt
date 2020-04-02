@@ -9,7 +9,7 @@ class ProvinsiRepository(
 ) {
     fun getMoviesFromJsonString() : ArrayList<Provinsi>{
         val listProvinsi = ArrayList<Provinsi>()
-        val dataProvinsi: DataProvinsi = DataSource.createDataSet(jsonString)
+        val dataProvinsi: DataProvinsi = DataSource.createDataSetProvinsi(jsonString)
         dataProvinsi.data?.forEach {
             if (it != null) {
                 listProvinsi.add(it)
