@@ -3,6 +3,7 @@ package id.ac.unhas.infocovid19.ui.harian
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 
+
 class HarianViewModelFactory(
     private val repository: HarianRepository
 ) : ViewModelProvider.NewInstanceFactory() {
